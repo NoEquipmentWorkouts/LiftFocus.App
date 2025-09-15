@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://noequipmentworkouts.github.io/LiftFocus/sitemap.xml
+Sitemap: https://liftfocus.app/sitemap.xml
