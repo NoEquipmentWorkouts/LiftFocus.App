@@ -1,88 +1,83 @@
-# LiftFocus: 10-Minute No-Equipment Workouts
+# 💪 LiftFocus: 10-Minute Workouts. No Gym. No Gear.
 
-Welcome to **LiftFocus** — a simple, effective fitness solution designed for students and busy professionals who want to stay strong, energized, and consistent — without needing a gym, gear, or hours of time.
+You're not here to waste time.
 
-Built with HTML, CSS, and hosted on GitHub Pages, this site delivers free, science-backed micro-workouts and no-cook nutrition tips directly to your audience.
+You're here because:
+- You have back-to-back lectures
+- Your internship starts at 9 AM
+- You’re tired of skipping workouts
+- You want to feel stronger — without needing a gym
 
-## 🔍 What Is LiftFocus?
+That’s why **LiftFocus** exists.
 
-LiftFocus helps users build better habits in just 10 minutes a day. No excuses. No complexity.
+## 🔥 What Is LiftFocus?
 
-> “Stay fit in 10 minutes with no gym, no gear, and no excuses. Free 7-day challenge with bodyweight workouts and no-cook recipes for students and busy professionals.”
+A free 7-day challenge that gives you:
+- ✅ 10-minute no-equipment workouts (do them in your dorm, office, or hotel room)
+- ✅ No-cook recipes (only 3 ingredients — yes, really)
+- ✅ A simple habit that actually fits your schedule
 
-### 🎯 Core Principles
-- **No More All-or-Nothing**: Missed a day? Just start tomorrow.
-- **Wake Up Your Brain**: Boost focus without coffee.
-- **Feel Stronger Every Week**: Not about being ripped — it’s about feeling capable.
+No all-or-nothing mindset.  
+No guilt if you miss a day.  
+Just progress.
 
-## 💡 How It Works (In Real Life)
+> “I do LiftFocus between classes — no gym, no stress. I feel stronger.”  
+> — Alex T., NYU Student
+
+## 🧘‍♀️ How It Works
 
 1. **Do 1 Short Workout**  
    Every day at 7AM, 12PM, or 8PM — your choice.
 2. **Eat Freely — Stop at 8PM**  
-   No dieting. Just a simple cutoff to reset energy.
+   No dieting. Just a natural reset.
 3. **Use What You Have**  
    Floor, wall, chair — that's all you need.
 
-## 🧘‍♀️ Features
+## 🍫 Fuel Up: No-Cook Energy Balls (Only 3 Ingredients!)
 
-- **10-Minute Daily Videos**  
-  Short routines you can do between classes or after work.
-- **No Equipment Needed**  
-  Just your body, floor, and 10 minutes.
-- **Wind Down Naturally**  
-  Stop eating by 8PM to reset energy — no calorie counting.
-- **Dorm-Friendly Recipes**  
-  No stove? No problem. Fuel your body simply.
+- 1 cup rolled oats
+- ½ cup peanut butter
+- 2 tbsp honey
 
-## 🥣 Free Recipe: No-Cook Energy Balls (Only 3 Ingredients!)
+👉 Mix → Roll into balls → Chill 20 mins → Store for 2 weeks
 
-- **1 cup rolled oats**
-- **½ cup peanut butter**
-- **2 tbsp honey**
+**Pro Tip:** Make a batch Sunday night. Grab one each morning.
 
-👉 *Optional:* Add cinnamon, chia seeds, or chocolate chips  
-✅ Mix → Roll into balls → Chill 20 mins → Store for 2 weeks
-
-**Pro Tip:** Make a batch on Sunday — grab one each morning!
+Want 3 more recipes? Join the free challenge.
 
 ## 🌟 Real Students, Real Results
 
-> “I used to skip workouts because I had back-to-back lectures. Now I do LiftFocus between classes — no gym, no stress. I feel stronger and way more focused.”  
-> — Alex T., Computer Science, NYU
+> “As a pre-med student, I never had time. This 10-minute routine actually fits.”  
+> — Jamie R., Oxford
 
-> “As a pre-med student, I never had time. This 10-minute routine actually fits. I’ve stuck with it for 3 weeks — best habit I’ve built in college.”  
-> — Jamie R., Biology, University of Oxford
+> “No kitchen? No problem. I make the energy balls in my dorm.”  
+> — Sophie L., UCL
 
-> “No kitchen? No problem. I make the energy balls in my dorm. The workouts are short but effective. I finally feel in control of my health.”  
-> — Sophie L., Engineering, UCL
+## 👋 Meet Rebecca
 
-## 👋 Meet the Founder
+Hi, I'm Rebecca — I created LiftFocus because staying fit shouldn’t require a gym.
 
-Hi, I'm **Rebecca** — I created LiftFocus because staying fit shouldn’t require a gym. Just 10 minutes. No gear. Real results.
+Just 10 minutes.  
+No gear.  
+Real results.
 
-📧 Email me: rebecca@liftfocus.app  
-🆘 Need help? support@liftfocus.app
+📧 [rebecca@liftfocus.app](mailto:rebecca@liftfocus.app)  
+🆘 [support@liftfocus.app](mailto:support@liftfocus.app)
 
-## 🔗 Follow LiftFocus
+## ▶️ See It in Action
 
-We’re building a community on social media:
+Watch the **5-Minute Wake-Up Routine** → [Watch Here](https://player.vimeo.com/video/1116509463)
 
-| Platform | Handle | Link |
-|--------|--------|------|
-| Instagram | [@liftfocusapp](https://www.instagram.com/liftfocusapp) | [instagram.com/liftfocusapp](https://www.instagram.com/liftfocusapp) |
-| TikTok | [@lidtfocus](https://www.tiktok.com/@lidtfocus) | [tiktok.com/@lidtfocus](https://www.tiktok.com/@lidtfocus) |
-| YouTube | [@Lift-Focus](https://www.youtube.com/@Lift-Focus) | [youtube.com/@Lift-Focus](https://www.youtube.com/@Lift-Focus) |
-
-🎥 Watch our 5-Minute Wake-Up Routine:  
-[Watch on Vimeo](https://player.vimeo.com/video/1116509463)
+Short. Effective. No equipment needed.
 
 ## 🚀 Start Your Free 7-Day Challenge
 
-Join over **1,000+ students** getting free workouts, recipes, and habit tips.
+Join **1,000+ students** getting daily workouts & recipes.
 
-👉 [Start Free 7-Day Challenge](https://liftfocus.app/#signup)
+👉 [Start Free Challenge](https://liftfocus.app/#signup)
 
-Only limited spots available — claim yours before we go premium.
+Only 751 spots left — claim yours before we go premium.
 
-## 📂 Project Structure
+---
+
+© 2025 LiftFocus. Made for students, by someone who’s been there.
