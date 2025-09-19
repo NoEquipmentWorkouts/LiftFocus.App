@@ -337,7 +337,7 @@
       </div>
     </section>
 
-    <!-- ✅ SIGNUP SECTION — OFFICIAL MAILERLITE FORM (100% WORKING) -->
+    <!-- ✅ SIGNUP SECTION — EMAILOCTOPUS (NO SCRIPTS, NO 404, JUST WORKS) -->
     <section class="signup-section" id="signup">
       <h2>Start Your 7-Day Challenge</h2>
       <p>Join <span class="highlight-number">1000+</span> students getting free workouts, recipes, and habit tips.</p>
@@ -350,28 +350,25 @@
              loading="lazy">
       </div>
 
-      <!-- ✅ OFFICIAL MAILERLITE EMBED CODE — WORKING -->
-      <div id="mlb2-31060612" class="ml-subscribe-form ml-subscribe-form-31060612"></div>
-      <script>
-        window.mailerlite = window.mailerlite || {
-          forms: {
-            init: function() {
-              var mlForms = document.querySelectorAll('.ml-subscribe-form');
-              if (mlForms.length) {
-                for (var i = 0; i < mlForms.length; i++) {
-                  mlForms[i].classList.add('ml-form-loaded');
-                }
-              }
-            }
-          }
-        };
-        setTimeout(mailerlite.forms.init, 1);
-      </script>
-      <script src="https://static.mailerlite.com/data/webforms/31060612/f3y5l3.js?v1" defer></script>
+      <!-- ✅ EMAILOCTOPUS FORM — REPLACE YOUR-LIST-ID WITH YOUR ACTUAL LIST ID -->
+      <div style="max-width: 750px; margin: 30px auto; background: #2081e0; padding: 40px; border-radius: 16px; color: white; text-align: center; box-shadow: 0 8px 25px rgba(30,102,199,0.2);">
+        <h3 style="color: white; margin-bottom: 20px; font-size: 32px; font-weight: 700;">Get Your Free 7-Day Challenge</h3>
+        <p style="margin-bottom: 25px; font-size: 18px; opacity: 0.95;">Enter your email below — we’ll never spam you.</p>
+        
+        <form action="https://emailoctopus.com/lists/YOUR-LIST-ID/members/embedded/1.3/add" method="post" style="display: flex; flex-direction: column; gap: 15px;">
+          <input type="email" name="field_0" placeholder="youremail@example.com" required
+                 style="width: 100%; padding: 16px 20px; border-radius: 12px; border: none; font-size: 18px; background: white; color: #333; font-weight: 500; box-shadow: 0 2px 8px rgba(0,0,0,0.1); transition: all 0.3s ease;">
 
-      <p class="signup-note">
-        <small>We’ll never spam you. Cancel anytime. No credit card required.</small>
-      </p>
+          <button type="submit"
+                  style="width: 100%; padding: 16px 35px; background: white; color: #1E66C7; border: none; border-radius: 50px; font-weight: bold; font-size: 1.3em; cursor: pointer; box-shadow: 0 4px 15px rgba(30,102,199,0.25); transition: all 0.3s ease; letter-spacing: 0.5px;">
+            ✅ Start My Free Challenge
+          </button>
+        </form>
+
+        <p style="margin-top: 20px; font-size: 14px; opacity: 0.85;">
+          <small>No credit card required. Cancel anytime. 100% privacy guaranteed.</small>
+        </p>
+      </div>
     </section>
 
     <!-- Social Icons -->
@@ -415,16 +412,6 @@
     </footer>
 
   </div>
-
-  <!-- ✅ CORRECTED MAILERLITE UNIVERSAL SCRIPT — NO TRAILING SPACES -->
-  <script>
-    (function(w,d,e,u,f,l,n){
-      w[f]=w[f]||function(){(w[f].q=w[f].q||[]).push(arguments);},
-      l=d.createElement(e),l.async=1,l.src=u,
-      n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);
-    })(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
-    ml('account', '1717265');
-  </script>
 
   <!-- Main JS -->
   <script src="main.js"></script>
