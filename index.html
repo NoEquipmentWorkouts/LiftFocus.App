@@ -122,6 +122,13 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="style.css">
+
+  <!-- Smooth Scroll -->
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 <body>
 
@@ -266,21 +273,21 @@
 
     <!-- Recipe Section -->
     <section class="recipe-section">
-      <h2>Fuel Up: No-Cook Energy Balls (Only 3 Ingredients!)</h2>
-      <p class="recipe-details">Ready in under 30 minutes | Makes 10-12 balls | No cooking required</p>
-      <ul>
+      <h2 style="color: #1E66C7; text-align: center; margin-bottom: 20px;">Fuel Up: No-Cook Energy Balls (Only 3 Ingredients!)</h2>
+      <p class="recipe-details" style="text-align: center;">Ready in under 30 minutes | Makes 10-12 balls | No cooking required</p>
+      <ul style="max-width: 600px; margin: 0 auto; text-align: left;">
         <li><strong>1 cup (90g)</strong> rolled oats</li>
         <li><strong>½ cup (130g)</strong> peanut butter</li>
         <li><strong>2 tbsp (30ml)</strong> honey</li>
       </ul>
-      <div class="recipe-tip">
+      <div class="recipe-tip" style="margin: 20px 0; text-align: center;">
         <strong>Optional:</strong> Add cinnamon, chia seeds, or chocolate chips.
       </div>
-      <p><strong>Make:</strong> Mix, roll, chill 20 mins. Store for 2 weeks.</p>
-      <div class="recipe-tip">
+      <p style="text-align: center;"><strong>Make:</strong> Mix, roll, chill 20 mins. Store for 2 weeks.</p>
+      <div class="recipe-tip" style="margin: 20px 0; text-align: center;">
         <strong>Pro Tip:</strong> Make a batch on Sunday — grab one each morning!
       </div>
-      <p class="small" style="margin-top:15px;">
+      <p class="small" style="margin-top:15px; text-align: center;">
         <em>Want 3 more no-cook recipes? <a href="#signup">Join the free challenge →</a></em>
       </p>
     </section>
@@ -316,45 +323,46 @@
       </div>
     </section>
 
-    <!-- Founder Section -->
-    <section class="founder-section">
-      <div style="text-align: center; padding: 50px 20px; background: #ffffff; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
-        <img src="Images/Rebecca/Rebecca.png" 
-             alt="Rebecca - Founder of LiftFocus" 
-             style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 3px solid #1E66C7; margin-bottom: 15px;"
-             loading="lazy">
+   <!-- Founder Section — REMOVED EXTRA SHADOW + ADDED "Meet our founder" -->
+<section class="founder-section" style="margin: 60px auto; padding: 0 20px; max-width: 1200px;">
+  <div style="text-align: center; padding: 50px 20px; background: #ffffff; border-radius: 16px; border: 1px solid #eee;">
+    <!-- ✅ ADDED: "Meet our founder" in blue -->
+    <h2 style="color: #1E66C7; font-size: 28px; margin: 0 0 30px; font-weight: 600;">Meet our founder</h2>
 
-        <h3 style="color: #1E66C7; margin: 15px 0;">Hi, I'm Rebecca</h3>
-        <p style="max-width: 600px; margin: 0 auto 15px; color: #555;">
-          I created LiftFocus because staying fit shouldn’t need a gym.<br>
-          Just 10 minutes. No gear. Real results.
-        </p>
+    <img src="Images/Rebecca/Rebecca.png" 
+         alt="Rebecca - Founder of LiftFocus" 
+         style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 3px solid #1E66C7; margin-bottom: 15px;"
+         loading="lazy">
+    <h3 style="color: #1E66C7; margin: 15px 0;">Hi, I'm Rebecca</h3>
+    <p style="max-width: 600px; margin: 0 auto 15px; color: #555;">
+      I created LiftFocus because staying fit shouldn’t need a gym.<br>
+      Just 10 minutes. No gear. Real results.
+    </p>
+    <p style="font-size: 1.1em; color: #333;">
+      <strong>Email me:</strong> <a href="mailto:rebecca@liftfocus.app" style="color: #1E66C7; text-decoration: underline;">rebecca@liftfocus.app</a><br>
+      <strong>Need help?</strong> <a href="mailto:support@ligyfocus.app" style="color: #1E66C7; text-decoration: underline;">support@liftfocus.app</a>
+    </p>
+  </div>
+</section>
 
-        <p style="font-size: 1.1em; color: #333;">
-          <strong>Email me:</strong> <a href="mailto:rebecca.yourname@gmail.com" style="color: #1E66C7; text-decoration: underline;">rebecca@liftfocus.app</a><br>
-          <strong>Need help?</strong> <a href="mailto:your.backup.email@gmail.com" style="color: #1E66C7; text-decoration: underline;">support@liftfocus.app</a>
-        </p>
-      </div>
-    </section>
-
-    <!-- ✅ EMAIL SIGNUP FORM — MATCHES SITE WIDTH -->
-    <section class="email-signup-section" style="margin: 60px auto 40px; padding: 0 20px;">
-      <div style="max-width: 1200px; margin: 0 auto;"> <!-- Matches your site's content width -->
-        <div style="border-radius: 16px; padding: 30px; box-shadow: 0 6px 20px rgba(0,0,0,0.06); border: 1px solid #f0f0f0;">
-          <h3 style="text-align: center; color: #1E66C7; margin: 0 0 25px; font-size: 22px;">Ready to Start Your 7-Day Challenge?</h3>
-          <script async src="https://eomail6.com/form/3a2a92bc-9542-11f0-8bde-11e606439240.js" data-form="3a2a92bc-9542-11f0-8bde-11e606439240"></script>
+    <!-- ✅ EMAIL SIGNUP FORM — FIXED ID FOR ANCHOR LINKS -->
+    <section id="signup" style="margin: 60px auto; padding: 0 20px; max-width: 1200px;">
+      <div style="background: #fff; border-radius: 16px; padding: 40px; box-shadow: 0 6px 20px rgba(0,0,0,0.06); border: 1px solid #f0f0f0; text-align: center;">
+        <h3 style="color: #1E66C7; font-size: 28px; margin: 0 0 25px;">Ready to Start Your 7-Day Challenge?</h3>
+        <script async src="https://eomail6.com/form/3a2a92bc-9542-11f0-8bde-11e606439240.js" data-form="3a2a92bc-9542-11f0-8bde-11e606439240"></script>
+        <div style="font-size: 18px; color: #888; margin-top: 15px; font-style: italic;">
+          ✅ Yes, I want my free 7-Day Challenge! I agree to receive emails with workouts, recipes, and tips from LiftFocus. I can unsubscribe anytime — no spam, ever.<br>
+          (Don’t forget to tick this box — it’s required to join!)
         </div>
       </div>
-      ✅ Yes, I want my free 7-Day Challenge! I agree to receive emails with workouts, recipes, and tips from LiftFocus. I can unsubscribe anytime — no spam, ever.
-  (Don’t forget to tick this box — it’s required to join!)<div style="font-size: 12px; color: #888; margin-top: 6px; font-style: italic;"></div>
-</div>
-    </section>
-
-<!-- ✅ Social Media Section — Clean, Centered, White Card -->
+    </section>       
+         
+         
+         <!-- ✅ Social Media Section — Clean, Centered, White Card -->
 <section style="margin: 60px auto; padding: 0 20px; max-width: 1200px;">
   <div style="background: #fff; border-radius: 16px; padding: 40px; box-shadow: 0 6px 20px rgba(0,0,0,0.06); border: 1px solid #f0f0f0; text-align: center;">
-    <h3 style="color: #1E66C7; font-size: 20px; margin: 0 0 12px; font-weight: 600;">Our Social Media</h3>
-    <p style="margin: 0 0 30px; color: #555; font-size: 16px; line-height: 1.5;">
+    <h3 style="color: #1E66C7; font-size: 28px; margin: 0 0 12px; font-weight: 600;">Our Social Media</h3>
+    <p style="margin: 0 0 30px; color: #555; font-size: 20px; line-height: 1.5;">
       Join our community for daily motivation, quick workout tips, no-cook recipes, and real student success stories 🎥✨
     </p>
     
@@ -364,7 +372,7 @@
         <img src="logo/logo.png" alt="LiftFocus Logo" style="width:24px;height:24px;border-radius:6px;" loading="lazy">
       </a>
       <!-- Instagram -->
-      <a href="https://www.instagram.com/liftfocusapp/" target="_blank" aria-label="LiftFocus at Instagram" class="social-circle" rel="noopener">
+      <a href="https://www.instagram.com/liftfocusapp/" target="_blank" aria-label="LiftFocus at Instagram" title="LiftFocus at Instagram" class="social-circle" rel="noopener">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
           <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.012 3.584-.07 4.85c-.148 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07C3.92 20.227 2.395 18.684 2.247 15.459c-.058-1.265-.07-1.644-.07-4.85s.014-3.667.07-4.85C2.395 3.92 3.92 2.395 7.145 2.247 8.411 2.189 8.79.21 12 2.163zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014-3.667.072-4.947c.2 4.358 2.618 6.78 6.98 6.98 1.281.059 1.689.073 4.948.073s3.667-.014 4.947-.072c4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948s-.014-3.667-.072-4.947c-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.072-4.948-.072zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.164c-2.269 0-4.108-1.84-4.108-4.108 0-2.269 1.84-4.108 4.108-4.108s4.108 1.84 4.108 4.108c.001 2.268-1.839 4.108-4.108 4.108zm6.408-11.871c-.896 0-1.621-.724-1.621-1.621 0-.896.724-1.621 1.621-1.621.896 0 1.621.724 1.621 1.621 0 .897-.725 1.621-1.621 1.621z"/>
         </svg>
@@ -388,22 +396,26 @@
         </svg>
       </a>
     </div>
+         </div>
+    </section>
 
-
-     <!-- Footer -->
-    <footer class="footer">
-    <p style="background: #f9f9f9; text-align: center; font-size: 14px; color: #555; border-top: 1px solid #eee;">
+    <!-- Footer -->
+    <footer style="background: #f9f9f9; padding: 40px 20px; text-align: center; font-size: 14px; color: #555; margin-top: 40px; border-top: 1px solid #eee;">
       <p>LiftFocus is not affiliated with any university. Names are used to reflect user base, not partnership.</p>
       <p><small>Early access closing soon — join before we go premium.</small></p>
       <p>Created by <a href="mailto:rebecca@liftfocus.app">Rebecca</a></p>
+      <p>
         <a href="/privacy.html" style="color: #0066cc; text-decoration: none; margin: 0 12px; font-weight: 500;">Privacy Policy</a>
         <a href="/terms.html" style="color: #0066cc; text-decoration: none; margin: 0 12px; font-weight: 500;">Terms of Service</a>
         <a href="mailto:rebecca@liftfocus.app" style="color: #0066cc; text-decoration: none; margin: 0 12px; font-weight: 500;">Contact Us</a>
-             <p style="background: #f9f9f9; text-align: center; font-size: 18px; color: #555; margin-top: 10px; border-top: 1px solid #eee;">
-            © 2025 LiftFocus. Made for students, by someone who’s been there.</p>
+      </p>
+      <p style="font-size: 18px; margin-top: 20px;">
+        © 2025 LiftFocus. Made for students, by someone who’s been there.
       </p>
     </footer>
+
   </div>
+
   <!-- Main JS -->
   <script src="main.js"></script>
 </body>
